@@ -25,6 +25,15 @@ Then run below command and navigate your smartphone browser to `http://127.0.0.1
 ./syms
 ```
 
+Caution: If you encourage with below error when execute `syms`, upgrade `openssl` by `openssl_1.3a3.2.1-1_aarch64.deb` package which is provided at releases:
+`ImportError: dlopen failed: library "libssl.so.3" not found: needed by /data/data/com.termux/files/home/syms-aarch64/_ssl.so in namespace (default)`
+, So to doing this, Download provided package with your smartphone browser and run below commands to upgrading `openssl`:
+
+```
+cp ~/storage/downloads/openssl*aarch64.deb ~
+dpkg -i ~/openssl*aarch64.deb
+```
+
 Then copy and paste below syms code to opened webpage and click the button:
 
 ```
