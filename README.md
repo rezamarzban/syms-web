@@ -12,9 +12,9 @@ syms-web is portable lightweight complex equation solver and calculator, And doe
 * Lightweight
 * Simple
 * Quick
-* Easy source code
+* Few source code lines
 * Handheld (run on smartphone)
-* Strong symbolic package 
+* Powerful symbolic package 
 * Support Python codes
 * Infinite process timeout 
 
