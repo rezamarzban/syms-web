@@ -7,6 +7,7 @@ syms-web is portable lightweight complex equation solver and calculator, And doe
 * Free
 * Open source
 * Portable
+* User friendly 
 * Offline
 * Lightweight
 * Simple
@@ -27,6 +28,11 @@ The syms-web always run sympy codes which user input via browser at address `htt
 Run `build.sh` at source directory.
 
 # releases 
+V2:
+
+* Improved performance
+* Enhanced view
 
 V1:
-`syms-aarch64` is compiled dynamically with `nuitka --standalone` command at python 3.11
+
+* `syms-aarch64` is compiled dynamically with `nuitka --standalone` command at python 3.11
