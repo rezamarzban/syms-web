@@ -7,7 +7,7 @@ syms-web is portable lightweight complex equation solver and calculator, And doe
 * Free
 * Open source
 * Portable
-* User friendly 
+* User friendly web interface 
 * Offline
 * Lightweight
 * Simple
@@ -28,6 +28,11 @@ The syms-web always run sympy codes which user input via browser at address `htt
 Run `build.sh` at source directory.
 
 # releases 
+V3:
+
+* Rewritten with `tornado` module instead of `pywebio` module
+* Simple and fast web style 
+
 V2:
 
 * Improved performance
