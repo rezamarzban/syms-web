@@ -31,7 +31,8 @@ Run `build.sh` at source directory.
 V3:
 
 * Rewritten with `tornado` module instead of `pywebio` module
-* Simple and fast web style 
+* MathJax rendering of LaTeX expressions
+* Simple and fast interactive web style 
 
 V2:
 
