@@ -1,4 +1,4 @@
-At this example, The syms solve and render short dipole antenna equations.
+At this example, The syms solve and render (rendering is available from syms-web Version 3) short dipole antenna equations.
 
 For example, Download `syms-aarch64` release with your handheld smartphone browser and extract its contents, Then at freshly installed Termux run below command and allow it to access storage:
 
