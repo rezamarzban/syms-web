@@ -53,7 +53,7 @@ print("Farfield radiation electricity field: $$" + latex(E_theta.simplify(ration
 print("Farfield radiation magnetic field $$" + latex(H_phi.simplify(rational=True)) + "$$")
 print("Radiation intensity: $$" + latex(S_theta.simplify(rational=True)) + "$$")
 print("Radiation power: $$" + latex(P_rad.simplify(rational=True)) + "$$")
-print("Radiation resistance: $$" + latex(R_r.simplify(rational=True)) + "$$")
+print("Radiation resistance: $$" + latex(Rr.simplify(rational=True)) + "$$")
 ```
 
 It solve and render short dipole antenna equations.
