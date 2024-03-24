@@ -3,7 +3,7 @@ syms-web is a single executable binary file that run  sympy codes via web browse
 
 syms-web is portable lightweight complex equation solver and calculator, And doesn't need to any required software to be installed for working, Just download and use it quickly. For example download `syms-aarch64` to fresh Termux and use it without any required software installation as explained in `example1` directory.
 
-Note: In sum cases such as complex integral equations with imaginary part as below code, The `sympy` module is lacking! Use `MATLAB`, `Octave`, `Wolfram Mathematica` instead.
+Note: In sum cases such as complex integral equations with imaginary part as below code, The `sympy` module is lacking! But `Octave` which use `sympy` module for its `symbolic` package doesn't lack. You can use `MATLAB`, `Wolfram Mathematica` also. `sympy` module at `Python` is lacking to solve below complex integral, But `symbolic` package at `Octave` that use `sympy` module doesn't lack to solve same complex integral with equal code:
 ```
 x = symbols('x', real=True)
 f = Integral(exp(-1j*x)/x, (x, 1, oo))
